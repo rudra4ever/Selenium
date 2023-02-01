@@ -1,3 +1,1 @@
-# Selenium
-# Selenium
-# Selenium
+# Sample selenium code

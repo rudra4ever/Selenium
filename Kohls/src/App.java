@@ -14,13 +14,19 @@ import net.bytebuddy.dynamic.TypeResolutionStrategy.Active;
 
 
 public class App {
+    private static final String Webdriver = null;
+
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
         // set property for chrome
-        System.setProperty("webdriver.chrome.driver","src/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver",("/Users/rudrasharma/Desktop/Selenium Code/Kohls"));
 
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        WebDriver driver = new WebDriver();
+
 
         // driver.get("https://www.nike.com");
 

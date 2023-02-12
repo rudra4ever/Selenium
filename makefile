@@ -1,4 +1,4 @@
 push:
 	git add .
 	git commit -m "Update code"
-	git push origin master
+	git push origin main
